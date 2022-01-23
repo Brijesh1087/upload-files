@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block main%}
+<!-- banner -->
+<div class="container banner">
+	<div class="container text-center">
+		<h2 class="text-warning mb-5">Sign in</h2>
+		<form action="/signin">
+			<input required type="text" name="email" placeholder="username or email " class="form-control my-2">
+			<input required type="password" name="passwd" placeholder="password " class="form-control my-2">
+			<input type="submit" class="btn btn-primary btn-lg mt-3" value="Sign in">
+
+		</form>
+	</div>
+</div>
+{% endblock main	%}

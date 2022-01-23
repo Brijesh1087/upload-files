@@ -1,0 +1,31 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	min-width: 100%;
+	min-height: 100vh;
+	background-image: url(banner.jpeg);
+}
+.container.banner{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	background-position: center;
+	background-size: cover;
+	display: grid;
+	place-items: center;
+}
+
+.container.banner form input.form-control{
+	margin: auto;
+	width: 400px;
+	height: auto;
+
+}
+.footer{
+	position: fixed;
+	bottom: 0;
+	min-width: 100%;
+}
