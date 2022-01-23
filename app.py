@@ -1,5 +1,3 @@
-from crypt import methods
-from winreg import REG_QWORD
 from flask import Flask,request,render_template
 
 app = Flask(__name__)
